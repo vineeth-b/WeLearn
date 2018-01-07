@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cantarell" rel="stylesheet">
+
+  <link href="sign.css" type="text/css" rel="stylesheet">
+
+  <script>
+
+    function checkForm(form)
+    {
+      if(form.firstname.value == "") {
+        alert("Error: First name is empty!");
+        form.firstname.focus();
+        return false;
+      }
+
+      if (form.lastname.value == "") {
+        alert("Error: Last name is empty!");
+        form.lastname.focus();
+        return false;
+      }
+
+      return true;
+    }
+
+  </script>
+
+
+</head>
+<body>
+
+  <div class="header">
+    <h1>We Learn</h1>
+    <h2>Expand On Your Learning</h2>
+  </div>
+
+  <div class="row">
+    <div class="column side"></div>
+    <div class="column middle">
+
+        <h2 class="login"> Login Form</h2>
+
+        <div class="container">
+          <div class="left"></div>
+          <div class="right"></div>
+        </div>
+
+        <form action="welcome.html" method="post" onsubmit="return checkForm(this);">
+
+        <div class="move">
+          <h3>First Name:</h3>
+          <input type="text" placeholder="Enter First name" name="firstname" >
+        </div>
+
+        <div class="move1">
+          <h3>Last Name:</h3>
+          <input type="text" placeholder="Enter Last name" name="lastname" >
+        </div>
+
+        <div class="move2">
+          <input type="submit" value="Sign In">
+        </div>
+      </form>
+
+    </div>
+    <div class="column side"></div>
+  </div>
+
+  <div class="footer">
+    <h3 class="text">Made by Jean Augustine Students</h3>
+  </div>
+
+</body>
+</html>
