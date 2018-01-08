@@ -8,8 +8,8 @@
   <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cantarell" rel="stylesheet">
 
-  <link href="sign.css" type="text/css" rel="stylesheet">
-
+  <link href="sign_mobile.css" rel="stylesheet" media="screen and (min-width:0px)">
+  <link href="sign.css" rel="stylesheet" media="screen and (min-width:700px)">
   <script>
 
     function checkForm(form)
@@ -47,26 +47,31 @@
         <h2 class="login"> Login Form</h2>
 
         <div class="container">
-          <div class="left"></div>
+          <div class="left">
+
+            <form action="welcome.html" method="post" onsubmit="return checkForm(this);">
+
+          <div class="all_move">
+            <div class="move">
+              <h3>First Name:</h3>
+              <input type="text" placeholder="Enter First name" name="firstname" >
+            </div>
+
+            <div class="move1">
+              <h3>Last Name:</h3>
+              <input type="text" placeholder="Enter Last name" name="lastname" >
+            </div>
+
+            <div class="move2">
+              <input type="submit" value="Sign In">
+            </div>
+          </div>
+          </form>
+
+
+          </div>
           <div class="right"></div>
         </div>
-
-        <form action="welcome.html" method="post" onsubmit="return checkForm(this);">
-
-        <div class="move">
-          <h3>First Name:</h3>
-          <input type="text" placeholder="Enter First name" name="firstname" >
-        </div>
-
-        <div class="move1">
-          <h3>Last Name:</h3>
-          <input type="text" placeholder="Enter Last name" name="lastname" >
-        </div>
-
-        <div class="move2">
-          <input type="submit" value="Sign In">
-        </div>
-      </form>
 
     </div>
     <div class="column side"></div>
