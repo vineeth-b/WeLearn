@@ -13,6 +13,7 @@
   box-sizing:border-box;
   transition-duration: 0.4s;
   cursor: pointer;
+  position: relative; bottom:-105px;
 }
 
 .button:hover {
@@ -42,17 +43,16 @@ body {
 /* Create three unequal columns that floats next to each other */
 .column {
     float: left;
-    padding: 10px;
-    padding:100px;
+    padding: 8.5px;
 }
 
 /* Left and right column */
 .column.side {
     width: 25%;
     background-color:#DEF2F1;
-    height: 500px;
-    margin-top:2%;
-    margin-bottom: -1%;
+    margin-top:0%;
+    margin-bottom: 1%;
+    height: 200px;
 }
 
 /* Middle column */
@@ -60,7 +60,8 @@ body {
     width: 50%;
     background-color: #DEF2F1;
     margin-top:0%;
-    margin-bottom: -2%;
+    margin-bottom: 1%;
+    height:200px;
 }
 
 /* Clear floats after the columns */
@@ -77,49 +78,46 @@ body {
     margin-top:1%;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
- @media (max-width: 700px) {
-    .column.side, .column.middle, .header, .footer {
-        width: 125%;
-}
-
-    .logo {
-      width: 290px;
-      height:282px;
-    }
-
-    .logo1 {
-      width: 290px;
-      height:282px;
-    }
-
-}
-
 h1 {
   font-family: 'Fjalla One', sans-serif;
-  font-size:150px;
+  font-size:130px;
   color: #FEFFFF;
   text-align:center;
 }
 
 h2 {
   font-family: 'Cantarell', sans-serif;
-  font-size:55px;
+  font-size:45px;
   color:#17252A;
   text-align: center;
 }
 
 h3 {
   font-family: 'Cantarell', sans-serif;
-  font-size:26px;
+  font-size:23px;
   color:#17252A;
   text-align:center;
+    position:relative; top: 100px;
 }
 
 .logo {
   text-align: center;
+  position: relative;top: -350px;
+  margin-left: 25%;
+  width: 190px;
+  height: 185px;
 }
 
+.logo1 {
+  position:relative; top:-60px;
+  margin-left:675%;
+  width: 190px;
+  height: 185px;
+}
+
+.quote {
+  position: relative; top:1px;
+}
 
 
 /*position: relative; right:-20%; top:30%;*/
