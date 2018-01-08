@@ -9,7 +9,7 @@ body {
 /* Style the header */
 .header {
     background-color: #3AAFA9;
-    padding: 50px;
+    padding: 25px;
     text-align: center;
 }
 
@@ -23,14 +23,14 @@ body {
 .column.side {
     width: 25%;
     background-color: #DEF2F1;
-    height:800px;
+    height:750px;
 }
 
 /* Middle column */
 .column.middle {
     width: 50%;
     background-color: #DEF2F1;
-    height:800px;
+    height:750px;
 }
 
 /* Clear floats after the columns */
@@ -52,30 +52,19 @@ body {
     .column.side, .column.middle {
         width: 100%;
     }
-}
 
-@media (max-width: 800px) {
-  .container {
-    height:500px;
-    width:175px;
-    background: white;
-    margin:0 auto;
-    border: 4px solid #17252A;
-    box-shadow: 0 30px 40px rgba(0,0,0,.5);
-    text-align:center;
-  }
 }
 
 h1 {
   font-family: 'Fjalla One', sans-serif;
-  font-size:150px;
+  font-size:130px;
   color: #FEFFFF;
   text-align:center;
 }
 
 h2 {
   font-family: 'Cantarell', sans-serif;
-  font-size:55px;
+  font-size:45px;
   color:#17252A;
   text-align: center;
 }
@@ -96,21 +85,26 @@ h2 {
 
 .container {
   width:700px;
-  height:500px;
+  height:440px;
   background: white;
-  margin:0 auto;
+  margin:4% auto;
   border: 4px solid #17252A;
   box-shadow: 0 30px 40px rgba(0,0,0,.5);
   text-align:center;
-  margin-top:-1%;
+  position:relative;
+}
+
+.container .form {
+  position: relative;
 }
 
 .container .right {
   float:right;
   width:50%;
-  height:492px;
+  height:433px;
   background-color:#3AAFA9;
   background:cover;
+  position: relative; top: 3.5px;
 }
 
 input[type=text] {
@@ -127,21 +121,30 @@ input[type=text] {
 input[type=submit] {
   width:65px;
   font-family: 'Cantarell', sans-serif;
-  margin-top: 5%;
-  margin-left: 26%;
+  position: relative; left:235px;
 }
 
 .move {
   margin-top: -45%;
   margin-left: 20%;
+  position:relative'
 }
 
 .move1 {
   margin-top: 1%;
   margin-left: 20%;
+  position:relative;
+}
+
+.all_move {
+  position: relative; top:750px; left: -400px;
 }
 
 h3 {
   font-family: 'Cantarell', sans-serif;
   font-size: 22px;
+}
+
+.text {
+  font-size: 14px;
 }
