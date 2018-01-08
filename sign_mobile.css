@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Style the header */
+.header {
+    background-color: #3AAFA9;
+    padding: 25px;
+    text-align: center;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding-top: 1.5%;
+}
+
+/* Left and right column */
+.column.side {
+    width: 25%;
+    background-color: #DEF2F1;
+}
+
+/* Middle column */
+.column.middle {
+    width: 50%;
+    background-color: #DEF2F1;
+    height:700px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #3AAFA9;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 800px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+
+}
+
+h1 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size:105px;
+  color: #FEFFFF;
+  text-align:center;
+}
+
+h2 {
+  font-family: 'Cantarell', sans-serif;
+  font-size:25px;
+  color:#17252A;
+  text-align: center;
+}
+
+.text {
+  font-family: 'Cantarell', sans-serif;
+  font-size:26px;
+  color:#17252A;
+  text-align:center;
+}
+
+.login {
+  font-family: 'Cantarell', sans-serif;
+  font-size:40px;
+  color:#17252A;
+  text-align:center;
+}
+
+.container {
+  width:325px;
+  height:320px;
+  background: white;
+  margin:4% auto;
+  border: 4px solid #17252A;
+  box-shadow: 0 30px 40px rgba(0,0,0,.5);
+  text-align:center;
+  position:relative;
+}
+
+.container .form {
+  position: relative;
+}
+
+.container .right {
+  float:right;
+  width:50%;
+  height:313px;
+  background-color:#3AAFA9;
+  background:cover;
+  position: relative; top: -245px;
+}
+
+input[type=text] {
+    width: 125px;
+    height: 33px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-family: 'Cantarell', sans-serif;
+    position: relative; right:-6px;
+}
+
+input[type=submit] {
+  width:65px;
+  font-family: 'Cantarell', sans-serif;
+  position:relative; top:-360px; right:-165px;
+}
+
+.move {
+  position: relative; top:-395px; right:-155px;
+}
+
+.move1 {
+  position:relative; right:-155px; top:-387px;
+}
+
+.all_move {
+  position: relative; top:400px; left: -250px;
+}
+
+h3 {
+  font-family: 'Cantarell', sans-serif;
+  font-size: 18px;
+}
+
+.text {
+  font-size: 16px;
+}

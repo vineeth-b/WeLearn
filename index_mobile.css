@@ -1,0 +1,141 @@
+.button {
+  background-color: #78A2C2;
+  color: white;
+  border: 2px solid: #78A2C2;
+  font-family: 'Cantarell', sans-serif;
+  font-size:18px;
+  padding: 6px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 50%
+  -webkit-transition-duration: 0.4s;
+  box-sizing:border-box;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: white;
+  color: #78A2C2;
+  border:2px solid: #78A2C2;
+  font-family: 'Cantarell', sans-serif;
+  font-size:18px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color:#DEF2F1;
+    text-align:center;
+}
+
+/* Style the header */
+.header {
+    background-color: #3AAFA9;
+    padding: 25px;
+}
+
+/* Create three unequal columns that floats next to each other
+.column {
+    float: left;
+    padding: 10px;
+    padding:50px;
+}*/
+
+/* Left and right column
+.column.side {
+    width: 25%;
+    background-color:#DEF2F1;
+    height: 500px;
+    margin-top:0%;
+    margin-bottom: -1%;
+}*/
+
+ Middle column
+.column.middle ,  .column.side{
+    width: 100%;
+    background-color: #DEF2F1;
+    margin-top:0%;
+    margin-bottom: -1%;
+    padding:30px;
+}*/
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the footer */
+.footer {
+    background-color: #3AAFA9;
+    padding: 10px;
+    margin-top:1%;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other
+ @media (max-width: 700px) {
+    .column.side, .column.middle, .header, .footer {
+        width: 125%;
+}
+
+    .logo {
+      width: 275px;
+      height:auto;
+      position:relative;
+      text-align: center;
+    }
+
+    .logo1 {
+      width: 275px;
+      height:267px;
+      position: relative;
+      text-align: center;
+    }
+
+}*/
+
+h1 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size:105px;
+  color: #FEFFFF;
+  text-align:center;
+}
+
+h2 {
+  font-family: 'Cantarell', sans-serif;
+  font-size:25px;
+  color:#17252A;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Cantarell', sans-serif;
+  font-size:16px;
+  color:#17252A;
+  text-align:center;
+}
+
+.logo {
+    text-align: center;
+    position:relative; top:40%;
+    width:100px;
+    height:97px;
+}
+
+.logo1 {
+    position:relative; top:-10px;
+    text-align: center;
+    width:100px;
+    height:97px;
+}
+
+
+
+/*position: relative; right:-20%; top:30%;*/
+/*position: relative; right:-25%; top:30%;*/
