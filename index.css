@@ -102,15 +102,13 @@ h3 {
 
 .logo {
   text-align: center;
-  position: relative;top: -350px;
-  margin-left: 25%;
+  position: relative;top: -350px; right:-25px;
   width: 190px;
   height: 185px;
 }
 
 .logo1 {
-  position:relative; top:-60px;
-  margin-left:675%;
+  position:relative; top:-60px; left: 950px;
   width: 190px;
   height: 185px;
 }
