@@ -101,14 +101,13 @@ h3 {
 }
 
 .logo {
-  text-align: center;
-  position: relative;top: -350px; right:-25px;
+  position: relative;top: 150px; right:-25px;
   width: 190px;
   height: 185px;
 }
 
 .logo1 {
-  position:relative; top:-60px; left: 950px;
+  position:relative; top:-75px; left: 950px;
   width: 190px;
   height: 185px;
 }
